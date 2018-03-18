@@ -101,12 +101,6 @@ public class Problems19 {
             result = result.next;
         }
     }
-    static class ListNode {
-        int val;
-        ListNode next;
 
-        public ListNode(int data) {
-            this.val = data;
-        }
-    }
+
 }
