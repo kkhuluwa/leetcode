@@ -25,25 +25,26 @@ public class Problems19 {
         }
         if (lastNNode.next != null) {
             deleteCurrentNode(lastNNode);
-        }else {
-            head =   deleteLastNode(head);
+        } else {
+            head = deleteLastNode(head);
         }
 
         return head;
 
     }
-    public ListNode deleteLastNode(ListNode head){
-        if(head == null || head.next == null){
+
+    public ListNode deleteLastNode(ListNode head) {
+        if (head == null || head.next == null) {
             return null;
         }
         ListNode fast = head.next.next;
         ListNode slow = head;
-        while (fast!=null){
+        while (fast != null) {
             fast = fast.next;
             slow = slow.next;
         }
-       slow.next = null;
-        return head ;
+        slow.next = null;
+        return head;
     }
 
 
@@ -92,6 +93,7 @@ public class Problems19 {
 
         return node;
     }
+
     public static void main(String args[]) {
         ListNode node = new ListNode(1);
 //        node.next = new ListNode(2);
