@@ -1,6 +1,6 @@
 package com.kkhuluwa.leetcode.linkedlist;
 
-import java.util.List;
+import com.kkhuluwa.leetcode.ListNode;
 
 /**
  * Given a sorted linked list, delete all duplicates such that each element appear only once.

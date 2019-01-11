@@ -1,5 +1,7 @@
 package com.kkhuluwa.leetcode.linkedlist;
 
+import com.kkhuluwa.leetcode.ListNode;
+
 /**
  * 203. Remove Linked List Elements
  * 203. 删除链表中的元素

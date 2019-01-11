@@ -1,5 +1,7 @@
 package com.kkhuluwa.leetcode.linkedlist;
 
+import com.kkhuluwa.leetcode.ListNode;
+
 /**
  * 19. Remove Nth Node From End of List
  * Given a linked list, remove the nth node from the end of list and return its head.
