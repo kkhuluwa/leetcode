@@ -51,18 +51,18 @@ public class LT1TwoNumbers {
             // 1 input check
             // 2 for hashmap
             // 3 out put
-            if(nums == null){
+            if (nums == null) {
                 return null;
             }
-            HashMap<Integer,Integer> map = new HashMap();
+            HashMap<Integer, Integer> map = new HashMap();
 
-            for(int i = 0;i < nums.length; i ++){
-                int con = target -nums[i];
-                if(map.containsKey(con)){
+            for (int i = 0; i < nums.length; i++) {
+                int con = target - nums[i];
+                if (map.containsKey(con)) {
                     return new int[]{map.get(con), i};
                 }
                 // 先放入前面的，如果后面有 一定可以匹配到前面的数据
-                map.put(nums[i],i);
+                map.put(nums[i], i);
 
             }
 
